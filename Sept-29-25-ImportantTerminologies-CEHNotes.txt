@@ -1,0 +1,22 @@
+Vulnurability Assesment vs Pentesting 
+In Vulnurability assesment we just explore vulnurabilities and in Penetration Testing we try to exploit them 
+
+OWASP
+Open Worldwide Application Security Protocols 
+it is different for 
+Web apps 
+Mobile Apps
+API'S
+Desktop Applications
+
+Reverse Engineering 
+the art of gaining back, and disassembling things to get the knowledge of how that tool or software was developed 
+
+Bug Bounty 
+you may earn money by reporting bugs in mobile and web applications 
+
+CVE (Common Vulnurability Exposure)
+every vulnurability is assigned a unique number the year in which it is identified
+https:cve.mitre.org
+
+
