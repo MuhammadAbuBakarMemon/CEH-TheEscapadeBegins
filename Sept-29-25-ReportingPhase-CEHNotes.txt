@@ -1,0 +1,42 @@
+Last Phase of Penetration Testing 
+Reporting Phase 
+
+Last Phase of Hacking is 
+Covering Tracks
+
+CISO = Chief Information Security Officer
+
+Security Assesment Report 
+1) Title Page 
+Organizattion, date when the security assesment report was published
+Disclamer 
+2) Index Page 
+table of contents
+3) Report Introduction 
+The testing was made on which framework and which which platform and for which organization and what tasks were 
+carried out 
+4) Report Writing - Executive Summary 
+is for CEO'S and CFO's, no technical jargons, keep it easy and simple as it is for Management and Executive Officers
+5) Next page is for technical personells, the relevant stakeholders
+that have to fix the exploit and security vulnurability
+such factros are discussed in this particular page of the report 
+
+CIA 
+Confidentiality 
+Integrity 
+Availability  
+
+Exploitability is determined by the following factors
+Probability = the likelihood of the vulnurability to get exploited 
+Impact = the reprecussions, what could have occured if the vulnurability had gone through
+
+Proof of Concept 
+A screenshot of the actual screen when the pentration tester was exploring the vulnurabilities/exploit whilst 
+performing penetration testing
+
+A Penetration Tester's work is to only indetify and report the vulnurabilities and to tell tehir solution 
+not to resolve that is the responsibillity of the relevant stakeholder 
+
+CVSS 
+Common Vulnurability Scoring System 
+a wbsite where we can 
