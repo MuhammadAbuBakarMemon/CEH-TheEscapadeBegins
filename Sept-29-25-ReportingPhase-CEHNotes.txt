@@ -38,5 +38,6 @@ A Penetration Tester's work is to only indetify and report the vulnurabilities a
 not to resolve that is the responsibillity of the relevant stakeholder 
 
 CVSS 
-Common Vulnurability Scoring System 
-a wbsite where we can 
+Common Vulnurability Scoring System
+a website where we can measure the severity of a computer system vulnurability, indicating the ease of 
+exploitation and potential impact
