@@ -15,6 +15,60 @@ Port 80 is the port that allows data sharing under http////
 Port 23 is the port for TELNET (which we use yo obtian the access of any machine)
 
 Firewall is a software that is used for filtering and acts as a gatekeeper, monitoring and controlling IP
+ACL (Access Control List) are the set of rules that re used by the firewall to givern network traffic
+
+Sangfot is a cheaper hardware firewall manufactures, 
+Cisco is the most expensive firewall manufacturer,
+
+IPS (Intrusion Prevention System)
+IDS (Intrusion Detection System)
+
+Previously we used to have a Firewall IPS and IDS all seperate
+Now we have all modules [(Firewall), (IPS), (IDS)] fitted in one device named NextGenerationFirewall (NGFW), which
+is one device which has all of them, but a seperate license has to be purchased for every module, and all 3 modules work 
+together
+
+IPS and IDS work on signatures that contain the latest data against every other attack, previously 
+signatures had to be updated every 15 days when the manufactures released an to update the firewall, but now 
+CISCO now has shifted to CloudTelos a cloud based way through which signatures that contain preventions from several latest 
+and updated attacks in real time, and network engineers in organisations do not have to give the IPS Server a downtime and 
+then update signatures locally and then upload them to the IPS Server
+
+IPS and IDS capture and detect attacks from outside the network they show us the visibility of IP's that are attacking 
+the network, without these two if we only have a firewall then it will prevent attacks but we won't be able to have the IP of 
+the intruder trying to invade our network 
+
+
+nmap --iflist 
+used to for figuring out the eht0 (the interface name of our computer)
+lo = loopback 
+used for selftesting
+
+Stealth Scanning 
+
+nmap-sS-p445-e eth0(interface name) -S 10.0.0.1 192.16.4.76
+nmap -sS = stealthScan (stealing)
+-e eth0 (interface name) 
+-S Spoof IP
+then we add the IP address that we want to attack
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
  
