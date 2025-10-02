@@ -1,0 +1,20 @@
+Evading refers to bypass something
+with one technique we can bypass Firewall (FW), IPS, and Honeypots
+because all of these have the same functionality
+
+They are bypassed via the Nmap tool
+
+Honeypots are traps created for attackers so that we can monitor the activities of an attacker
+The attackers comes to deliver an intrusion attempt on our newtwork but in turns ends up giving us their details as
+our firewall directs the intruder to a parallel network to ours instead of our original network (the honeypot)
+We do this by developing/constructing an identical network to our network in parallel
+It can be used to get information about how cybercriminals operate and think 
+These attempts made by the attcaker are termed as intrusion attempts
+
+Port 80 is the port that allows data sharing under http////
+Port 23 is the port for TELNET (which we use yo obtian the access of any machine)
+
+Firewall is a software that is used for filtering and acts as a gatekeeper, monitoring and controlling IP
+
+
+ 
