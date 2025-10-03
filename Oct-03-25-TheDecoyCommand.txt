@@ -1,0 +1,32 @@
+TELNET Port 23
+SSH Port 22
+HTTPS Port 443
+HTTP Port 80
+
+Firewall Configuration:-
+Source 		Destiantion 	Port 	Action 
+10.1.1.2	192.168.1.2	23	Permit - TELNET
+10.1.1.3	192.168.1.3	22	Permit - SSH
+10.1.40.89	10.1.40.90	443	Permit - HTTPS
+10.1.40.87	10.1.40.91	80	Permit - HTTP
+The above IP's are whitelisted to access the network over the firewall, and are mostly the IP's of the network 
+administrators, as they must be allowed to access the network
+Deny all
+the configuration means deny all and any IP's except the whitelisted ones in the firewalls configuration 
+
+or 
+
+Permit IP any any 
+any Firewall configuration termed by Firewall configuration auditors
+
+The Decoy Command 
+nmap -D 2.1.1.1 (decoy IP) 1.1.1.1 (target IP) 
+nmap -D RND:10 10.1.40.90 (this scans the target using 10 random IP's) 
+
+If we add -v at the end of any list this means verbosity 
+-v 
+basically shows us the visibility of our processes in our command
+shows us the processes during nmap scanning 
+
+Some resources 
+https://nmap.org/book/toc.html
