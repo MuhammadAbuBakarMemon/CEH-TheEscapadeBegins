@@ -1,0 +1,61 @@
+SOCIAL ENGINEERING
+
+There is no patch for human stupidity 
+
+We run training sessions and workshops to run awareness about phishing attacks to mitigate such risks
+The art if human exploitation 
+
+Social Engineering manipulates human beings into performing actions or revealing confidential information. This could be technical or non-technical 
+information 
+
+Types of Social Engineering 
+
+Phishing 
+fake bogus wesites tricking people into performing particular actions or revealing particular informations
+
+Spear Phishing
+phishing targetting/conducted on a spcecific user base 
+
+Vishing 
+phishing conducted via calls 
+
+Mishing 
+phishing conducted via text messages
+
+Baiting 
+
+Tail Gating
+Someone enters through a gate using their credentials and someone just enters through that same open door before it closes on the door you opened
+
+Rubber Ducky USB used for hacking, current version is 3rd version
+It has scripts installed into it that can copromise your system 
+
+Common Threats 
+CEO Scam 
+Fake CEO contacting for performing actions or revealing confidential information
+Shoulder Surfing 
+Dumpster diving (KEVIN Mitnick)
+A shredder is used to discard confidential information/documents to prevent eavesdroppers from dumpster diving
+Whaling 
+Targetting high profile executives in organizatons for performing specific actions or revealing confidential information
+Firewalling/Pretexting 
+Pretexting is a special form of social engineering attack where an attacker creates a fabricated identity or scenario to manipulate a victim into 
+divulging confidential information, granting access to restricted systems, or performing actions they would not normally undertake 
+
+Pretexting is a special form of social engineering attack where an attacker creates a fabricated identity or scenario to manipulate a victim into 
+divulging confidential information, granting access to restricted systems, or performing actions they would not normally do 
+
+Wesites/Tools for scanning suspicious bogus webpages 
+
+urlscan.io (Gives us even a screnshot of the URL we want to visit)
+brightcloud (Gives us a metric on which it evaluates the threats associated with visiting the potentially suspicious website)
+virustotal.com (checks the provided link/suspicious link, by passing it through a list of many integrated antivirus softwares in this website)
+which basically runs the website through all the integrated antivirus softwares and flags the website if it contains any malware/virus 
+which might affect or get injected into your system once you visit the domain, 
+If even anyone of the antivirus utility software flags the URL as fake/bogus then probably it would be a better choice not not visit the webpage, just
+to be safe as a precautionary measure
+
+An Infosec engineer's task is to ananlyze the email headers and analyze attachments without opening them on his local system 
+they should use tools like email (virustotal.com) to analyze email attachments (this should be done on sandbox, so that if the email is malicious 
+then it should not affect our system)
+
