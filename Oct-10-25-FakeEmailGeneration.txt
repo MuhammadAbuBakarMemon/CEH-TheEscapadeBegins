@@ -1,0 +1,5 @@
+SET Tool will be used for fake email generation 
+is a step in social engineering 
+
+setoolkit is the tool we will use 
+
