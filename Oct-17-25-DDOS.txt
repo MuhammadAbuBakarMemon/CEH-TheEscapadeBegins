@@ -1,0 +1,51 @@
+DoS (Denial of Service Attack)
+when the attack is made from one computer 
+
+DDos
+when the attacks are initaited from more than one computer, a group of controlled zombies, this is ofcourse
+more dangerous and has a greater impact than just a DoS (Denial of Service)
+We use a tool named hping3 to perform DoS attacks
+
+Attacks are made to compromise availability of a network 
+it is attack meant to slow down a machine or network, making it inaccessible to the intended users
+
+Types of Dos attacks 
+Ping of Death/ICMP flooding
+UDP floods 
+Ping floods 
+LAND attack 
+
+SYN Flood
+
+Command explanation 
+
+hping3 --help
+gives us a list of the possible commands and what these commands mean and the operations 
+performed by these commands for this particular tool (Hping)
+
+hping3 -1 -flood -a 192.168.1.103 192.168.1.255
+-1 means ping the IP (ICMP mode)
+-flood means flood
+-a means use a spoofed IP, the given next IP is the soofed IP address and 
+the next given IP after this IP and a spcae is the IP to which the attacks are to be sent 
+
+Now if we want to perform a practical of the following and see if it actally works in our howe labs 
+use Vmware Kali linux we will use the hping3 tool to generate DoS (Denial of Service) attack from our PC
+to our windows IP address 
+Open task manager and navigate to the performance tab and see the CPU's utilization 
+Then is VM open up cmd give root permissions and use the hping3 tool's command but before executing it 
+Open the wireshark tool in linux virtual machine to analyse the network traffic we sent from here 
+as we will be genrating DoS attacks from the virtual machine's IP address 
+Once the command is executed via the hping3 tool we may see that our task manager display a significant increase in
+the CPU's process utilization and if we have used --flood in our command then we may observe the CPU's 
+utilization go upto 100%; similary, we may analyse the network's traffic via the wireshark tool in our virtual machine 
+and we will observe several ICMP packets (as we used the -1 ping in our command on hping3) from the spoofed 
+IP (as we used the -a in our command on hping3) from our kali linux's virtual machone 
+
+How to look for windows IP via windows terminal (CLI)
+ifconfig enter 
+the IPv4 in the section the 
+"Wireless LAN adapter Wi-Fi:"
+is your windows IP address
+
+21 Port is the port for FTP (File Transfer Protocol) connection 
