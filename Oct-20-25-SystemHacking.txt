@@ -1,0 +1,16 @@
+MODULE 7: SYSTEM HACKING
+
+Windows System Hacking
+
+1) Brute Forcing attacks
+all possible differenet combinations of numbers, alphabets, and special characters 
+
+2) Dictionary Attacks 
+all possible passwords in a given list of commonly used passwords are used and tried to penetrate through the 
+password 
+e.g: rockyou.txt
+
+gunzip is used for extracting .gz extension compressed files in kali linux 
+
+DVWA 
+Damp Vulnurable Web Application
