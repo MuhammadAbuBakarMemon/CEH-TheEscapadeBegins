@@ -1,0 +1,64 @@
+Penetration Testing 
+Web Attack / Hacking / Testing 
+
+What is Web Hacking?
+The process of gaining unauthorized access to the data in a web by exploiting security weaknesses is called web hacking.
+
+Defaced Website 
+A website is called defaced when its index page is replaced with the message or page of the attacker.
+
+Read about this group
+Lulz Sec Peru they created havoc by web penetration testing
+
+Attacks to study 
+1) SQL Injection 
+2) Cross Site Scripting (XSS)
+3) Cross Site Forgery (CSRF)
+4) Session Replay
+5) Session Hijacking
+6) Directory Traversal/Directory Browsing 
+7) Parameter Tampering
+8) File Upload 
+9) Command Execution
+10) File Inclusion 
+11) Source Code Exposure 
+12) Clickjacking 
+
+We need to be smart about things some of these attacks maybe universal on every website out there and in some particular 
+websites only some attacks are relevant 
+e.g: If a particular website doesnot have the option to upload a file then the File Upload attack would indeed be worthless 
+to try an exploit
+
+SQL (Structured Query Language)
+A list of some commands
+SELECT: retrives data from a table 
+INSERT: Adds data 
+DELETE: Removes data 
+UPDATE: modify data 
+DROP: delete data 
+UNION: combines data from multiple queries 
+WHERE: Filter records based on specific conditions 
+AND/OR/NOT: 
+ORDER BY: 
+
+SQLi is a code injection technique where an attacker injects malicious SQL code into the input or POST fields
+SQLi is a code injection technique where an attacker injects malicious SQL code into the input or POST fields
+SQLi is a code injection technique where an attacker injects malicious SQL code into the input or POST fields
+
+This particular thing is quite frequently asked in interviews they also ask for setps to mitigate SQL Injections and Cross Site Scripting (XSS)
+
+' OR 1 = 1 --
+-- comments out the code part in the query that comes after it
+
+If the basic syntax does not work, then we try these variants 
+Types 
+1.1) Blind SQL 
+
+Inband SQ
+2.1) Union Based 
+2.2) Error Based SQL 
+
+Two ways for performing SQL based Injection attacks 
+1) Manual method deploying queries on your own manually
+2) Automation tool that tries all the above mentioned attacks - SQLMAP
+(This has pre-scripting done in this tool beforehand that automatically tries all the above mentioned attacks for SQL Injection of all the types of SQLi)
