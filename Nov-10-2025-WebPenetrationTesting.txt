@@ -62,3 +62,18 @@ Two ways for performing SQL based Injection attacks
 1) Manual method deploying queries on your own manually
 2) Automation tool that tries all the above mentioned attacks - SQLMAP
 (This has pre-scripting done in this tool beforehand that automatically tries all the above mentioned attacks for SQL Injection of all the types of SQLi)
+
+How to mitigate SQL Injection attacks 
+
+1) Sanitization 
+username:- 'OR1=1--
+we will filter out such charcters that can lead to an easy SQLi attack like --, ' etc....
+in order to make sure our system is prevented from these we use sanitization which ignores certain characters
+
+2) Deploying a WAF (Web Application Firewall)
+
+What is MODSecurity?
+Is an open source WAF (Web Application Firewall) this can be easily bypassed
+
+3) Parameterized Queries 
+This we will study tomorrow
