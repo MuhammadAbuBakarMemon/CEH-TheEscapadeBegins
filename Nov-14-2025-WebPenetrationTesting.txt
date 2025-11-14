@@ -18,3 +18,18 @@ Session Token should get expired after every 15 minutes this is the best practic
 if the session doesnot expire within 15 minutes and has the expiry of a lifetime then it can lead to these 2 vulnurabilities of 
 1) Session Replay 
 2) Session Hijacking 
+
+Session Replay
+in this we can only login with the userid whose response we have for any particular login request 
+whilst 
+Session Hijacking 
+in this we can login with the userid of anyone who is availabe on the website as a user
+
+Directory Traversal / Directory Browsing 
+such hidden directories through which we can obtain access to confidential/sensitive information
+
+Dirbuster or ZAP (also used as a vulnurability scanner tool) is used to obtain the path of directories which might show us sensitive/confidential information 
+
+ZAP gives us the option to perform automated scanning it uses all methods e.g spider etc...
+but in a corporate enviornment we do not run the automated scanning all at once because this consumes most of the bandwidth 
+and makes the network very slow for all employees to acess therefore we deploy each type of attack one by one 
