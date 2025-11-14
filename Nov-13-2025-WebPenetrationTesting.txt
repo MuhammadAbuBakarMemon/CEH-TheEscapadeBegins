@@ -1,0 +1,21 @@
+Parameterized Statement
+
+W/o parameterized statement 
+
+Cross Site Scripting (XSS)
+XSS enables attackers to inject client side scripts i.e. HTML or Javascript into the vulnurable webpage
+we get a message of our wish displayed on the webpage or change the display of the webpage
+To experiment and play with this type XSS game on your browser 
+
+1) Reflected - Non-Persistent
+client based mostly happens on the webpages with loginid/password fields
+
+2) Stored - Persisitent 
+mostly executed on websites with comment sections 
+server based, means it wil write the query on the server, 
+
+3) DOM
+hard and difficult to find
+
+Clickjacking 
+
