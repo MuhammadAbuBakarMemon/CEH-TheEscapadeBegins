@@ -1,0 +1,20 @@
+Parameter Tampering 
+
+applied to websites in which we can pass parameters 
+mostly on ecommerce websites 
+
+basically it is commonly used to alter prices on websites through which purchases can be made
+
+Server side requests to be restricted/enforced by the developers to mitigate the vulnurability raised from Parameter Tampering
+
+Session Replay and Session Hijacking
+
+Session is maintained when we open a particular website in our browser
+Session Token is generated for each session generated when we open a particular webite on our browser
+Token remains intact till the user is using the website 
+Once we release the token is when we stop using the website for our particular use
+
+Session Token should get expired after every 15 minutes this is the best practice to be followed 
+if the session doesnot expire within 15 minutes and has the expiry of a lifetime then it can lead to these 2 vulnurabilities of 
+1) Session Replay 
+2) Session Hijacking 
