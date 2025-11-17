@@ -1,0 +1,22 @@
+Command Execution:
+basically is used for 
+pwd = print working directories 
+| = or operator 
+cat  categorize or list the files down 
+
+Source Code Exposure:
+makes the souce code evident with the internal paths/directories/the IP's that are being hosted by the webserver
+put random characters in the input boxes in the username and password fields of the Source Code
+and see if the source code gets exposed
+
+CSRF (Cross Site Forgery)
+
+File Inclusion
+
+Two types
+1) Local FIle Inclusion (LFI): executed on servers 
+executed on machines on which the website is locally hosted 
+2)Remote File Inclusion (RFI): executes on client end, RFI is when a website loads and executes files from external sources 
+because user input isin't validated properly
+executed remotly on the machines in which the website is requesting the service from the host web server and any shell can be 
+uploaded or any file can be uploaded on the website 
