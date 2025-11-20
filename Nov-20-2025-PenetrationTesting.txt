@@ -1,0 +1,7 @@
+Security Headers are used to prevent/reduce the percentage exploitation of vulnurabilities regarding 
+the field of Pentration Testing.
+
+use postman for scanning if any website has any number of security headers applied or not
+
+securityheaders.com is also another resourceful website where we can analyze headers
+
