@@ -1,0 +1,21 @@
+Mobile Application Pentesting 
+means identifying gaps and flaws in any android, IOS or windows phone application 
+
+1) SSL Pinning 
+2) Code Obfuscation (making the code harder to understand)
+3) Business Logic Flow 
+4) Insecure data storage, etc....
+
+Today will be all about SSL Pinning in mobile application penetration testing 
+
+SSL offloading is basically removing the official SSL certificate of the company's webserver 
+SSL onloading is basically adding a forged/non-genuine certificate that the intruder replaces in your request that you send to the webserver 
+
+SSL pinning when applied makes it impossible that the intruder can offload the and onload the SSL Certificate 
+in your sent request with an SSL certificate of their choice, can ensure that your requests that you send wpn't get 
+intercepted by your burpsuite's proxy
+
+When SSL pinning is used, before the server allows login for the browser to only login after it has verified the SSL 
+certificate of the entity that has sent the request.
+
+
