@@ -1,0 +1,18 @@
+MSFVENOM Software will be used 
+
+no silver bullet 
+today's method is one of many methods 
+not for newbies or non-technical background
+may include some social engineering tactics 
+may not work on some smartphones using antiviruses
+
+MSFVENOM: generating malicious apk files 
+MSFCONSOLE: to get the reverse shell
+
+CEHtest.org for preparation
+11 organisati
+
+Moving Forward
+Web Pentesting - PortSwigger 
+Mobile Pentesting - AD Pentesting 
+API Pentesting
